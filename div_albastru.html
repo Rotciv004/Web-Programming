@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Div Animat Hover</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      position: relative;
+      height: 100vh;
+    }
+    /* Div-ul albastru, poziționat în colțul stâng sus */
+    .blue-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      transition: transform 3s ease;
+    }
+    /* La hover, trasver dreapta sus */
+    .blue-box:hover {
+      transform: translateX(calc(100vw - 100px)) rotate(360deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="blue-box"></div>
+</body>
+</html>
