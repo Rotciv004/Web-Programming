@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run PHP Server + Debug",
+      "type": "php",
+      "request": "launch",
+      "runtimeExecutable": "D:/php/php.exe",
+      "runtimeArgs": [
+        "-S", "localhost:8000",
+        "-t", "${workspaceFolder}"
+      ],
+      "port": 9003,
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

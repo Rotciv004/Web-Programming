@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans‑serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  #linksContainer div {
+    margin: 0.5em 0;
+  }
+  
+  select, input[type=text], input[type=url], button {
+    margin: 0.2em;
+    padding: 0.4em;
+  }
+  
